@@ -18,13 +18,13 @@ var transporter = nodemailer.createTransport({
   }
 });
 
-fs.readFile("./port-Copy.html", function (err, data) {
+fs.readFile("./port-copy.txt", function (err, data) {
 var mailOptions = {
   from: 'abc123@gmail.com',
   to: 'xyz123@gmail.com',
   subject: 'Sending Email using Node.js',
   text: '<h1>hello</h1>!',
-  attachments: [{'filename': 'portCopy.txt', 'content': data}]
+  attachments: [{'filename': 'port-copy.txt', 'content': data}]
 };
 
 transporter.sendMail(mailOptions, function(error, info){
