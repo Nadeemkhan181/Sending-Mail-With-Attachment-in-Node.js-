@@ -4,7 +4,7 @@
   "main": "app.js",
   "dependencies": {
     "create-react-native-app": "^2.0.2",
-    "expo-cli": "^2.2.4",
+    "expo-cli": "^6.0.8",
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",
     "mysql": "^2.17.1",
